@@ -1,6 +1,3 @@
-# Mentorness-PowerBI-Project
-This project revolves around the analysis of the cost of living in various cities and countries across the globe. The dataset used for this analysis encompasses a wide range of economic indicators, from the price of basic commodities to the cost of housing, transportation, Education etc..
-
 
 
 Imagine a bustling city where the skyline is dotted with towering buildings, vibrant markets, and a diverse population. However, beneath this bustling exterior lies a pressing issue: the widening gap between the cost of living and average salaries. This scenario is not unique to one city but is echoed across many regions globally.
@@ -48,13 +45,14 @@ The dataset consists of the following variables:
 .............................................................
 • x54 Average Monthly Net Salary (After Tax) (USD)
 • x55 Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate
+
 • data_quality 0 if Numbeo considers that more contributors are needed to increase data
 quality, else 1data_quality: A binary variable (0 or 1) indicating data quality, with 0 suggesting
 the need for more contributors and 1 indicating satisfactory data quality.
 
 Data preprocessing and Cleaning
 
-I noticed that the column names are represented with numbers instead of their actual, descriptive values
+I noticed that the column names were represented with numbers instead of their actual, descriptive values
 I researched the Numbeo website to find and make the necessary corrections, grouped the cost factors into categories using custom column in Power Query as
 market, Groceries, utilities, childcare, transportation, Housing etc.
 
@@ -70,23 +68,22 @@ calculated the “average cost of living” column using the custom column in Po
 Created a Dax measure "Salary to Cost of Living Gap."
 
 Insights for Strategic Decisions
+
 For Individuals:
 Relocation Decisions: Professionals, especially remote workers, can consider relocating to cities with a lower cost of living to maximize their disposable income and savings.
 Career Choices: Pursuing careers in high-demand fields within lower-cost regions can offer a strategic advantage in terms of financial stability.
 For Organizations:
-
 Salary Adjustments: Companies operating in high-cost cities should consider adjusting their salary structures to align with living expenses, ensuring employee satisfaction and retention.
 Remote Work Policies: Encouraging remote work can help employees manage their living costs better and improve overall productivity and morale.
-Investment in Benefits: Providing housing stipends, transportation allowances, and other benefits can help bridge the cost of living gap for employees.
+Investment in Benefits: Providing housing stipends, transportation allowances, and other benefits can help bridge the cost-of-living gap for employees.
+
 For Policymakers:
-Affordable Housing Programs: Implementing and expanding affordable housing initiatives can make a significant impact on reducing the cost of living burden.
+Affordable Housing Programs: Implementing and expanding affordable housing initiatives can make a significant impact on reducing the cost-of-living burden.
 Public Transportation Development: Investing in efficient and affordable public transportation systems can help lower the overall living expenses for residents.
 Economic Diversification: Encouraging a diverse economic environment can create more balanced job opportunities, reducing the dependence on high-income sectors alone.
-Conclusion
+
+In Conclusion
 The data reveals clear trends and patterns that highlight the disparity between cost of living and salaries across various regions. By understanding these trends, individuals can make informed decisions about their careers and living arrangements, organizations can better support their employees, and policymakers can implement targeted measures to create more balanced and equitable living conditions. Through strategic actions informed by data, we can work towards bridging the gap and enhancing the quality of life for all.
-
-
-
 
 
 
